@@ -9,7 +9,7 @@ public class Client {
 
  public static void main(String[] args) {
        
-	           context = new ClassPathXmlApplicationContext("com/siddharth/Beans.xml");
+	       context = new ClassPathXmlApplicationContext("com/siddharth/Beans.xml");
                Employee obj = (Employee) context.getBean("a");
                obj.getEid();
                obj.getEname();
