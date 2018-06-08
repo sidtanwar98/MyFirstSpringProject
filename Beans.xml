@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id = "a" class = "com.siddharth.Employee">
+<property name = "eid" value = "0011"/>
+<property name = "ename" value = "Siddharth Tanwar"/>
+<property name = "eaddress" value = "Janakpuri West"/>
+</bean>
+
+<bean id = "b" class = "com.siddharth.Employee">
+<property name = "eid" value = "0010"/>
+<property name = "ename" value = "Sharad Tanwar"/>
+<property name = "eaddress" value = "Uttam Nagar West"/>
+</bean>
+
+<bean id = "c" class = "com.siddharth.Employee">
+<property name = "eid" value = "0009"/>
+<property name = "ename" value = "Nishant Tanwar"/>
+<property name = "eaddress" value = "Lodhi Colony"/>
+</bean>
+
+</beans>
